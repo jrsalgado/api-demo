@@ -4,5 +4,5 @@ ENV WORKDIR=/usr/src/app/
 WORKDIR $WORKDIR
 RUN git clone -b develop https://github.com/jrsalgado/api-demo.git . && \
     npm install
-EXPOSE 3000
+EXPOSE 3100
 CMD ["npm", "start"]
