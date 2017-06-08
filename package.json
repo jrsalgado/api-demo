@@ -1,0 +1,28 @@
+{
+  "name": "api-demo",
+  "version": "1.0.0",
+  "description": "docker compose api demo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "nodemon -L"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrsalgado/api-demo.git"
+  },
+  "author": "jayro salgado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrsalgado/api-demo/issues"
+  },
+  "homepage": "https://github.com/jrsalgado/api-demo#readme",
+  "dependencies": {
+    "express": "4.15.3",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "nodemon": "1.11.0"
+  }
+}
