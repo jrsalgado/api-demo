@@ -15,9 +15,11 @@ COPY . /usr/src/app
 EXPOSE 3100
 CMD ["npm", "run", "develop"]
 
+# docker build command
+# $ docker build -t api-demo:latest . --no-cache
+
 # docker run command
-# $ docker run -it --rm -v $PWD:/usr/src/app/
-# -v /usr/src/app/node_modules -P api:latest
+# $ docker run -it --rm -v $PWD:/usr/src/app/ -v /usr/src/app/node_modules -P api-demo:latest
 
 # install dependencies development
 # $ docker exec -it [container id or name ] npm install --save lodash
