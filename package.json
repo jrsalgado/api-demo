@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "nodemon -L"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,10 @@
   },
   "homepage": "https://github.com/jrsalgado/api-demo#readme",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "4.15.3",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "nodemon": "1.11.0"
   }
 }
