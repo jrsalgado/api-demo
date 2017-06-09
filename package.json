@@ -20,7 +20,7 @@
   "homepage": "https://github.com/jrsalgado/api-demo#readme",
   "dependencies": {
     "express": "4.15.3",
-    "lodash": "^4.17.4"
+    "mongoose": "4.7.6"
   },
   "devDependencies": {
     "nodemon": "1.11.0"
